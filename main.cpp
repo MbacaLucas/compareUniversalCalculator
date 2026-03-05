@@ -15,7 +15,6 @@ T getMin(T x, T y)
 }
 
 // Returns a string literal based on value equality
-// Uses 'auto' for return type deduction (C++14 or newer)
 template <typename T>
 auto equalOrNot(T x, T y)
 {
